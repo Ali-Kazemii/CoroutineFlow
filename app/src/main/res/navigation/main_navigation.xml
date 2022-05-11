@@ -3,12 +3,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/main_nav"
-    app:startDestination="@id/fragment_dashboard">
+    app:startDestination="@id/dashboardFragment">
 
     <fragment
-        android:id="@+id/fragment_dashboard"
+        android:id="@+id/dashboardFragment"
         android:name="com.example.coroutinesflow.DashboardFragment"
         android:label="DashboardFragment"
-        tools:layout="@layout/fragment_dashboard"/>
+        tools:layout="@layout/fragment_dashboard">
+        <action
+            android:id="@+id/action_dashboardFragment_to_flowFragment"
+            app:destination="@id/flowFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_stateShareFlow"
+            app:destination="@id/stateShareFlow" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/flowFragment"
+        android:name="com.example.coroutinesflow.flow.FlowFragment"
+        android:label="FlowFragment"
+        tools:layout="@layout/fragment_flow"/>
+
+    <fragment
+        android:id="@+id/stateShareFlow"
+        android:name="com.example.coroutinesflow.sharedflow.SharedFlowFragment"
+        android:label="StateShareFlow"
+        tools:layout="@layout/fragment_shared_flow"/>
+
 
 </navigation>

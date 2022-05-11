@@ -1,6 +1,5 @@
-package com.example.coroutinesflow
+package com.example.coroutinesflow.flow
 
-import androidx.lifecycle.LifecycleCoroutineScope
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.delay
@@ -9,7 +8,7 @@ import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.launch
 
-class MainViewModel : ViewModel() {
+class FlowViewModel : ViewModel() {
 
     init {
 
