@@ -4,7 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Other/Project/CoroutinesFlow/app/src/main/res/layout/activity_main.xml" value="0.2037519541427827" />
+        <entry key="..\:/Other/Project/CoroutinesFlow/app/src/main/res/layout/contain_view.xml" value="0.28888888888888886" />
         <entry key="..\:/Other/Project/CoroutinesFlow/app/src/main/res/layout/fragment_dashboard.xml" value="0.20364583333333333" />
+        <entry key="..\:/Other/Project/CoroutinesFlow/app/src/main/res/layout/fragment_flow.xml" value="0.340625" />
+        <entry key="..\:/Other/Project/CoroutinesFlow/app/src/main/res/layout/fragment_shared_flow.xml" value="0.28888888888888886" />
+        <entry key="..\:/Other/Project/CoroutinesFlow/app/src/main/res/layout/fragment_state_flow.xml" value="0.340625" />
+        <entry key="..\:/Other/Project/CoroutinesFlow/app/src/main/res/layout/fragment_state_share_flow.xml" value="0.3546875" />
       </map>
     </option>
   </component>
